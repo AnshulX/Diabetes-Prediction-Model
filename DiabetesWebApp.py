@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-loaded_model = pickle.load(open('Diabetes-Prediction-Model/trained_model.sav','rb')) 
+loaded_model = pickle.load(open('https://github.com/AnshulX/Diabetes-Prediction-Model/trained_model.sav','rb')) 
 
 def diabeticPrediction(input_data):
     input_data=(1,89,66,23,94,28.1,0.167,21)
